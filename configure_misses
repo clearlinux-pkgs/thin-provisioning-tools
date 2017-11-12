@@ -1,0 +1,4 @@
+Configure miss: whether to enable debugging
+Configure miss: whether to enable development tools
+Configure miss: whether to statically link libstdc++
+Configure miss: whether to statically link
