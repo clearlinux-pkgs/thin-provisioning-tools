@@ -4,7 +4,7 @@
 #
 Name     : thin-provisioning-tools
 Version  : 0.7.5
-Release  : 3
+Release  : 4
 URL      : https://github.com/jthornber/thin-provisioning-tools/archive/v0.7.5.tar.gz
 Source0  : https://github.com/jthornber/thin-provisioning-tools/archive/v0.7.5.tar.gz
 Summary  : No detailed summary available
@@ -51,12 +51,12 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1510659477
+export SOURCE_DATE_EPOCH=1525208835
 %reconfigure --disable-static --enable-testing
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1510659477
+export SOURCE_DATE_EPOCH=1525208835
 rm -rf %{buildroot}
 %make_install
 
