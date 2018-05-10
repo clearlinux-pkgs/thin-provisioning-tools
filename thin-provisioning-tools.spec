@@ -4,7 +4,7 @@
 #
 Name     : thin-provisioning-tools
 Version  : 0.7.6
-Release  : 5
+Release  : 6
 URL      : https://github.com/jthornber/thin-provisioning-tools/archive/v0.7.6.tar.gz
 Source0  : https://github.com/jthornber/thin-provisioning-tools/archive/v0.7.6.tar.gz
 Summary  : No detailed summary available
