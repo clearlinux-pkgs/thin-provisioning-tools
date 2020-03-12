@@ -4,7 +4,7 @@
 #
 Name     : thin-provisioning-tools
 Version  : 0.8.5
-Release  : 8
+Release  : 9
 URL      : https://github.com/jthornber/thin-provisioning-tools/archive/v0.8.5/thin-provisioning-tools-0.8.5.tar.gz
 Source0  : https://github.com/jthornber/thin-provisioning-tools/archive/v0.8.5/thin-provisioning-tools-0.8.5.tar.gz
 Summary  : No detailed summary available
