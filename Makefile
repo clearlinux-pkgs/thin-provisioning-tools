@@ -1,5 +1,5 @@
 PKG_NAME := thin-provisioning-tools
-URL = https://github.com/jthornber/thin-provisioning-tools/archive/v0.8.5/thin-provisioning-tools-0.8.5.tar.gz
-ARCHIVES = 
+URL = https://github.com/jthornber/thin-provisioning-tools/archive/v1.0.13/thin-provisioning-tools-1.0.13.tar.gz
+ARCHIVES = $(CGIT_BASE_URL)/vendor/thin-provisioning-tools/snapshot/thin-provisioning-tools-2024-07-30-16-03-19.tar.xz ./vendor
 
 include ../common/Makefile.common
