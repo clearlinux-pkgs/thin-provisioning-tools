@@ -7,7 +7,7 @@
 #
 Name     : thin-provisioning-tools
 Version  : 1.0.13
-Release  : 12
+Release  : 13
 URL      : https://github.com/jthornber/thin-provisioning-tools/archive/v1.0.13/thin-provisioning-tools-1.0.13.tar.gz
 Source0  : https://github.com/jthornber/thin-provisioning-tools/archive/v1.0.13/thin-provisioning-tools-1.0.13.tar.gz
 Source1  : http://localhost/cgit/vendor/thin-provisioning-tools/snapshot/thin-provisioning-tools-2024-07-30-16-03-19.tar.xz
@@ -87,7 +87,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1735861445
+export SOURCE_DATE_EPOCH=1735862784
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
@@ -115,7 +115,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1735861445
+export SOURCE_DATE_EPOCH=1735862784
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/thin-provisioning-tools
 cp %{_builddir}/thin-provisioning-tools-%{version}/COPYING %{buildroot}/usr/share/package-licenses/thin-provisioning-tools/8624bcdae55baeef00cd11d5dfcfa60f68710a02 || :
